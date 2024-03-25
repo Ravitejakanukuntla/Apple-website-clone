@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apple(India)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <style>
+      
+
+      .container1 {
+    text-align: right;
+    
+    background-color:rgb(61, 60, 60);
+  }
+  .fa1 {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .content {
+    margin-left: 20px;
+    padding: 20px;
+    display: none;
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+  }
+  .content p,
+  .content a {
+    margin: 10px 0;
+    display: block;
+    
+  }
+  
+  .sign-links {
+    color: rgb(100, 94, 94);
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .lin{
+    color: white;
+  }
+         
+        nav{
+            background-color: rgb(61, 60, 60);
+            text-decoration: none;
+            text-align: center;
+            justify-content: space-evenly;
+            display: flex;
+            padding: 13px;
+            width: 100%;
+            font-size: 14px;
+            position:fixed;
+            
+            margin-top:-10px;
+            justify-content: space-evenly;
+            
+        }
+        
+        nav a{
+            text-decoration: none;
+            color: rgb(196, 194, 194);
+        }
+
+        .anchor:hover {
+                color: white;
+                background-color: rgb(61, 60, 60);
+                display: block;
+                     }
+        .fa{
+            color: rgb(196, 194, 194);
+        }
+        .fa:hover{
+            color: white;
+        }
+        .search-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .search-container input[type="text"],
+  .search-container button {
+    display: none;
+    margin-top: 5px;
+  }
+
+  .search-container.active input[type="text"],
+  .search-container.active button {
+    display: block;
+  }
+
+  .search-container input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 240px; /* Adjust width as needed */
+  }
+
+  .search-container button {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: #2196F3;
+    color: white;
+    cursor: pointer;
+  }
+  .text{
+            padding-top: 80px;
+            text-align: center;
+            background-color: white;
+        }
+        #text{
+            font-size: 50px;
+            font-family:sans-serif;
+        }
+        #text1{
+            margin: 4px;
+            font-size: 30px;
+            font-family:sans-serif;
+        }
+        #a1{
+            color:rgb(0, 140, 255);
+            text-decoration: none;
+            font-weight: lighter;
+            font-family:sans-serif;
+        }
+        #a1:hover{
+            text-decoration:underline;
+        }
+        #p1{
+          
+            word-spacing: 20px;
+        }
+        .text-top{
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.916);
+        }
+        .caro-1{
+          margin-top: 10px;
+        }
+        #img3{
+            width: 60%;
+            margin-left: 10%;
+            margin-top: -13px;
+        }
+        .img4{
+            width: 100%;
+        }
+        .iphone15pro{
+            font-size: 50px;
+            font-weight: bold;
+            font-family:sans-serif;
+            color: white;
+            text-align: center;
+            margin-top:-600px;
+        }
+        .iphone-text{
+            font-family:sans-serif;
+            color: white;
+            text-align: center;
+            margin-top:-40px;
+            font-size: 22px;
+        }
+        .iphone15{
+            margin-top: 30px;
+        }
+        #p2{
+            word-spacing: 20px;
+            text-align: center;
+            margin-top:-12px;
+        }
+        #iphone-a{
+            text-decoration: none;
+        }
+        .iphone15plus{
+            margin-top: 40px;
+        }
+        #iphone15plus-1{
+            text-decoration: none;
+            color: black;
+        }
+        .iphone15-2{
+            font-size: 50px;
+            font-weight: bold;
+            font-family:sans-serif;
+            color: black;
+            text-align: center;
+            margin-top:590px;
+        }
+        .iphone15-3{
+            font-size: 25px;
+            font-weight: bold;
+            font-family:sans-serif;
+            color: black;
+            text-align: center;
+            margin-top: -38px;
+        }
+        #iphone15-img{
+            width: 100%;
+            margin-top: -17px;
+            height: 420px;
+            border-bottom-style: solid white ;
+            border-width: 40px;
+        }
+
+        .card{
+            border-style: none;
+            border-radius: 0;
+            position: static;
+            width: 50%;
+        }
+        .a{
+            width: 48%;
+            background-color: black;
+            color: white; 
+            height: 500px;
+            display:inline-block; 
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .b{
+            width: 48%; 
+            background-color: white; 
+            color: black; 
+            display:inline-block; 
+            
+            margin-right: 20px;
+            margin-top: 10px;
+            float: right;
+        }
+
+        .img1{
+        height: 500px;
+      
+        
+      }
+
+      .iwatch{
+            float: left;
+            width: 580px;
+            height: 480px;
+           
+            margin-top: 20px;
+            background-color:black;
+            border-style: solid black;
+            display: inline-block;
+       }
+
+       #iwatch-1{
+        text-decoration: none;
+        color: white;
+       }
+       .iwatch-2{
+        font-size: 35px;
+        margin-top: 10px;
+        padding-top: 20px;
+            font-weight: bold;
+            font-family:sans-serif;
+            text-align: center;
+           
+            
+       }
+       .iwatch-3{
+        font-family:sans-serif;
+            margin-top: -29px;
+            text-align: center;
+            font-size: 20px;
+       }
+
+
+     
+
+      .ipad{
+            float: right;
+            width: 580px;
+            height: 530px;
+            margin-right: 20px;
+            margin-top: 20px;
+            background-color: white;
+            border-style: solid white;
+            display: inline-block;
+       }
+
+       #ipad-1{
+        text-decoration: none;
+        color: black;
+       }
+       .ipad-2{
+        font-size: 50px;
+            font-weight: bold;
+            font-family:sans-serif;
+            text-align: center;
+            margin-top: 30px
+            
+       }
+       .ipad-3{
+        font-family:sans-serif;
+            margin-top: -35px;
+            text-align: center;
+            font-size: 22px;
+       }
+
+       .ipad-img{
+        height: 300px;
+        width: 480px;
+        margin-left: 55px;
+       }
+       .c{
+            width: 48%;
+            background-color: black;
+            color: white; 
+            height: 500px;
+            display:inline-block; 
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .d{
+            width: 48%; 
+            background-color: white; 
+            color: black; 
+            display:inline-block; 
+            
+            margin-right: 20px;
+            margin-top: 10px;
+            float: right;
+        }
+
+        .img1{
+        height: 500px;
+      
+        
+      }
+
+      .airpods{
+            float: left;
+            width: 580px;
+            height: 480px;
+           
+            margin-top: 20px;
+            background-color:black;
+            border-style: solid black;
+            display: inline-block;
+       }
+
+       #airpods-1{
+        text-decoration: none;
+        color: white;
+       }
+       .airpods-2{
+        font-size: 35px;
+        margin-top: 10px;
+        padding-top: 20px;
+            font-weight: bold;
+            font-family:sans-serif;
+            text-align: center;
+           
+            
+       }
+       .airpods-3{
+        font-family:sans-serif;
+            margin-top: -29px;
+            text-align: center;
+            font-size: 20px;
+       }
+
+
+     
+
+      .macbook{
+            float: right;
+            width: 580px;
+            height: 530px;
+            margin-right: 20px;
+            margin-top: 20px;
+            background-color: white;
+            border-style: solid white;
+            display: inline-block;
+       }
+
+       #macbook-1{
+        text-decoration: none;
+        color: black;
+       }
+       .macbook-2{
+            font-size: 38px;
+            font-weight: bold;
+            font-family:sans-serif;
+            text-align: center;
+            margin-top: 30px
+            
+       }
+       .macbook-3{
+        font-family:sans-serif;
+            margin-top: -35px;
+            text-align: center;
+            font-size: 20px;
+       }
+
+       .macbook-img{
+        height: 350px;
+        width: 500px;
+        
+       }
+
+       .e{
+            width: 48%;
+            background-color: white;
+            color: black; 
+            height: 500px;
+            display:inline-block; 
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .f{
+            float: right;
+            width: 48%; 
+            background-color: white; 
+            color: black; 
+            display:inline-block; 
+            margin-right: 20px;
+            margin-top: 10px;
+            
+        }
+
+        .img1{
+        height: 500px;
+      
+        
+      }
+
+      .homepods{
+            float: right;
+            width: 580px;
+            height: 530px;
+            margin-top: 20px;
+            background-color: white;
+            border-style: solid white;
+            display: inline-block;
+       }
+
+       #homepods-1{
+        text-decoration: none;
+        color: black;
+       }
+       .homepods-2{
+        font-size: 38px;
+            font-weight: bold;
+            font-family:sans-serif;
+            text-align: center;
+            margin-top: 30px
+            
+       }
+       .homepods-3{
+        font-family:sans-serif;
+            margin-top: -35px;
+            text-align: center;
+            font-size: 20px;
+       }
+
+       .homepods-img{
+        height: 350px;
+        width: 530px;
+        
+       }
+ 
+
+
+
+    
+       .trade{
+            float: right;
+            width: 580px;
+            height: 530px;
+            margin-right: 20px;
+            margin-top: 20px;
+            background-color: white;
+            border-style: solid white;
+            display: inline-block;
+       }
+
+       #trade-1{
+        text-decoration: none;
+        color: black;
+       }
+       .trade-2{
+        font-size: 38px;
+            font-weight: bold;
+            font-family:sans-serif;
+            text-align: center;
+            margin-top: 30px
+            
+       }
+       .trade-3{
+        font-family:sans-serif;
+            margin-top: -35px;
+            text-align: center;
+            font-size: 20px;
+       }
+
+       .trade-img{
+        height: 350px;
+        width: 530px;
+        margin-left: 55px;
+       }
+      
+       #a2{
+        color:rgb(0, 140, 255);
+            text-decoration: none;
+            font-weight: lighter;
+            font-family:sans-serif;
+       }
+       #p3{
+            text-align: center;
+            margin-top:-12px;
+       }
+       #a2:hover{
+        text-decoration: underline;
+       }
+
+
+       .stream2{
+        display: inline-block;
+        height: 500px;
+        width: 90%;
+        margin-left: 59px;
+
+        
+       }
+       .footer{
+        background-color: rgba(234, 233, 231, 0.352);
+       }
+       .parag{
+        margin-top: 52px;
+        padding: 30px;
+        padding-left: 80px;
+        padding-right: 80px;
+        color: dimgrey;
+        font-size: 15px;
+        
+
+       }
+       .parag1{
+        margin-top: -30px;
+        padding-left: 80px;
+        padding-right: 80px;
+        color: dimgrey;
+        font-size: 15px;
+        padding-bottom: 20px;
+       }
+       .parag2{
+        margin-top: -30px;
+        padding-left: 80px;
+        padding-right: 80px;
+        color: dimgrey;
+        font-size: 15px;
+        padding-bottom: 20px;
+       }
+       .parag3{
+        margin-top: -30px;
+        padding-left: 80px;
+        padding-right: 80px;
+        color: dimgrey;
+        font-size: 15px;
+        padding-bottom: 20px;
+        
+
+       }
+       .line1{
+        margin-top: -40px;
+        color: rgba(234, 233, 231, 0.352);
+        border-bottom-style: solid;
+        border-color: rgba(164, 164, 164, 0.717);
+        margin-left: 90px;
+        margin-right: 90px;
+       }
+       iframe{
+    height: 605px;
+    margin-bottom: -70px;
+    width: 100%;
+    overflow: hidden;
+      }
+      .link{
+        color: rgb(50, 50, 50);
+      }
+      table{
+            margin-left: 18%;
+            font-size: 14px;
+        }
+        
+        td{
+            color: dimgrey;   
+        }
+       
+        
+        th,td{
+           
+            text-align: left;
+            padding-right: 46px;
+        }
+        .footer-link{
+            text-decoration: none;
+            color: dimgrey;
+        }
+        .footer-link:hover{
+            text-decoration: underline;
+            color: dimgrey;
+        }
+        .list{
+            list-style-type: none;
+             margin-left: 18%;
+             font-size: 14px;
+             color: dimgrey;
+             
+        }
+        .line2{
+        color: rgba(234, 233, 231, 0.352);
+        border-bottom-style: solid;
+        border-color: rgba(164, 164, 164, 0.717);
+        margin-left: 90px;
+        margin-right: 90px;
+       }
+
+       .table2{
+        margin-left: 10%;
+       }
+
+       .td{
+        border-right-style: solid;
+        padding: 5px;
+        text-align: center;
+       }
+       
+      
+   
+
+
+
+
+       
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <nav>
+            <a href="./Apple website.html" class="anchor"><i class="fa fa-apple"></i></a>
+            <a href="https://www.apple.com/in/store" class="anchor">Store</a>
+            <a href="https://www.apple.com/in/mac/" class="anchor">Mac</a>
+            <a href="https://www.apple.com/in/ipad/" class="anchor">iPad</a>
+            <a href="https://www.apple.com/in/iphone/" class="anchor">iPhone</a>
+            <a href="https://www.apple.com/in/watch/" class="anchor">Watch</a>
+            <a href="https://www.apple.com/in/airpods/" class="anchor">Airpods</a>
+            <a href="https://www.apple.com/in/tv-home/" class="anchor">TV & Home</a>
+            <a href="https://www.apple.com/in/services/" class="anchor">Entertainment</a>
+            <a href="https://www.apple.com/in/shop/accessories/all" class="anchor">Accessories</a>
+            <a href="https://support.apple.com/en-in" class="anchor">Support</a>
+            <div class="search-container" id="searchContainer">
+                <i onclick="toggleSearch()" class="fa fa-search" style="cursor: pointer;"></i>
+                <input type="text" id="searchInput" placeholder="Search.." style="display: none;">
+                <button onclick="performSearch()" style="display: none;">Search</button>
+              </div>
+              <div class="container1">
+                <div class="fa fa-shopping-bag" onclick="toggleBagContent()">
+                </div>
+                <div class="content" id="Content">
+                  <p> Your Bag is empty</p>
+                  <p style="color:rgb(100, 94, 94); font-size: 15px;"><a href="https://secure6.store.apple.com/in/shop/signIn?ssi=1AAABjnU7FKcg-xlHJnPf0VgLDwDMKGhceKg7KJy7cW_nSAVJjbWh5swAAAAbaHR0cHM6Ly93d3cuYXBwbGUuY29tL2luL3x8AAIBlbLKei5DC3dyDDvBiGAYeoT8ap6MV7UkZOsCSCTaV9c" class="sign-links" style="color:rgb(52, 52, 248); text-decoration: underline; display:inline-block; font-size: 15px;">Sign in</a> to see if you have any saved items </p>
+                  <p style="color:rgb(100, 94, 94); font-size: 15px;">My Profile</p>
+                  <a href="https://secure6.store.apple.com/in/shop/signIn/orders?ssi=1AAABjnU7jzEgS7uiVOqV-rEwtphbtoXV-mjFuT0aM8i7a8peRZUZh04AAAA0aHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9pbi9zaG9wL29yZGVyL2xpc3R8fAACAYhQeKvNQDjd67zdF3fGGeQ5dSMgjyjtJy1vJKKl-AOo" class="sign-links lin"><li class="fa fa-cube"> Order</li></a>
+                  <a href="https://secure6.store.apple.com/in/shop/signIn?ssi=1AAABjnU8AcogTW0tngDgOxjhmV5G35OE8FpEXq4iS2-m2amKUWXrkEcAAAApaHR0cHM6Ly93d3cuYXBwbGUuY29tL2luL3Nob3AveW91cnNhdmVzfHwAAgH69Dgxhj-pIe5C1Pi-YWsnrUDyPyNLHOBso5A2g5liGg" class="sign-links lin"><li class="fa fa-bookmark"> Your Saves</li></a>
+                  <a href="https://secure6.store.apple.com/in/shop/signIn/account?ssi=1AAABjnU8RScgIjartQ3u3dqUI64oa5Y1xlvI6jpWf2ZGWNm7bTbL5a8AAAA2aHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9pbi9zaG9wL2FjY291bnQvaG9tZXx8AAIBDjZSwxe4CCNdQ7LwM0ogjibY2ONxdEbaj8QGlf1VjXw" class="sign-links lin"><li class="fa fa-gear"> Account</li></a>
+                  <a href="https://secure6.store.apple.com/in/shop/signIn?ssi=1AAABjnU7FKcg-xlHJnPf0VgLDwDMKGhceKg7KJy7cW_nSAVJjbWh5swAAAAbaHR0cHM6Ly93d3cuYXBwbGUuY29tL2luL3x8AAIBlbLKei5DC3dyDDvBiGAYeoT8ap6MV7UkZOsCSCTaV9c" class="sign-links lin"><li class="fa fa-user-circle"> Sign in</li></a>
+                </div>
+              </div>
+    
+        </nav>
+        </div>
+
+        <div class="par" style="padding-top: 38px; text-align: center;">
+          Save up to ₹8000.00 instantly on eligible products with HDFC Bank Credit Cards.* Plus No Cost EMI from most leading banks.‡<a href="" id="a1" style="font-size: 14px;"> Shop now ></a>
+      </div>
+
+        <div class="text">
+            <a href="" class="text-top"><b id="text">MacBook Air</b><p id="text1">Supercharged by M3</p></a>
+                <p id="p1"><a href="" id="a1">Learnmore</a> <a href="" id="a1">Buy</a></p>
+            <a href=""><img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbookair-og-202402?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1707414684423" id="img3"></a>
+        </div>
+        <div class="iphone15">
+                <a href="" id="iphone-a"><img src="https://www.apple.com/v/iphone-15-pro/c/images/meta/iphone-15-pro_overview__f8jz7aagka2q_og.png" alt="" class="img4">
+                <p class="iphone15pro">iPhone 15 Pro</p> <p class="iphone-text">Titanium. So Strong. So light. So Pro.</p>
+                <p id="p2"><a href="" id="a1">Learnmore</a> <a href="" id="a1">Buy</a></p></a>
+        </div>
+        
+        <div class="iphone15plus">
+                <a href="" id="iphone15plus-1"><p class="iphone15-2">iPhone 15</p> <p class="iphone15-3">New Camera. New Design. Newphoria.</p>
+                <p id="p2"><a href="" id="a1">Learnmore</a> <a href="" id="a1">Buy</a></p>
+               <a href=""> <img src="https://www.apple.com/v/iphone-15/c/images/meta/iphone-15_overview__gm0jynt55aai_og.png?202403130419" id="iphone15-img">
+               </a></a>
+        </div>
+
+
+  
+      
+
+            <div class="card a">
+              <div class="card-body">
+              <a href="https://www.apple.com/in/ipad-10.9/" id="iwatch-1"><p class="iwatch-2"><i class="fa fa-apple" style="color: white;"></i>Watch</p> <p class="iwatch-3" style="color: red; font-size: 15px;">Series 9</p> <p class="iwatch-3" >Smarter. Brighter. Mighter</p>
+                  <p id="p2"><a href="https://www.apple.com/in/ipad-10.9/" id="a1">Learnmore</a> <a href="https://www.apple.com/in/shop/buy-ipad/ipad" id="a1">Buy</a></p>
+                  <a href="https://www.apple.com/in/apple-watch-series-9/"><img src="./iwatch-img.png" alt="" class="ipad-img" style="height: 350px; width:604px ;margin-top: -20px; margin-left: -15px;"></a>
+                </div>
+              </div>
+
+          <div class="card b">
+            <div class="card-body">
+            <a href="https://www.apple.com/in/ipad-10.9/" id="ipad-1"><p class="ipad-2">iPad</p> <p class="ipad-3">Loveable. Drawable. Magical.</p>
+                <p id="p2"><a href="https://www.apple.com/in/ipad-10.9/" id="a1">Learnmore</a> <a href="https://www.apple.com/in/shop/buy-ipad/ipad" id="a1">Buy</a></p>
+                <a href="https://www.apple.com/in/ipad-10.9/"><img src="./ipad-img.png" alt="" class="ipad-img"></a>
+        
+              </div>
+            </div>
+            
+            <div class="card c">
+            <div class="card-body">
+              <a href="https://www.apple.com/in/airpods-pro/" id="airpods-1"><p class="airpods-2">AirPods Pro</p> <p class="airpods-3">Adaptive Audio. Now playing.</p>
+                  <p id="p2"><a href="https://www.apple.com/in/airpods-pro/" id="a1">Learnmore</a> <a href="https://www.apple.com/in/shop/product/MTJV3HN/A/airpods-pro" id="a1">Buy</a></p>
+                  <a href="https://www.apple.com/in/airpods-pro/"><img src="./airpods.png" alt="" class="airpods-img" style="height: 350px; width:604px ;margin-top: -20px; margin-left: -15px;"></a>
+          </div>
+        </div>
+
+        <div class="card b">
+          <div class="card-body">
+          <a href="https://www.apple.com/in/macbook-pro/" id="ipad-1"><p class="ipad-2" style="font-size: 39px;">MacBook Pro</p> <p class="ipad-3">Mind-blowing. Head-turning.</p>
+              <p id="p2"><a href="https://www.apple.com/in/macbook-pro/" id="a1">Learnmore</a> <a href="https://www.apple.com/in/shop/buy-mac/macbook-pro" id="a1">Buy</a></p>
+              <a href="https://www.apple.com/in/macbook-pro/"><img src="./macbook.png" alt="" class="ipad-img"></a>
+      
+            </div>
+          </div>
+      
+        <div class="card e">
+        <div class="card-body">
+          <a href="https://www.apple.com/in/homepod-mini/" id="homepods-1"><p class="homepods-2">HomePod mini</p>
+              <p id="p2"><a href="https://www.apple.com/in/homepod-mini/" id="a1">Learnmore</a> <a href="https://www.apple.com/in/shop/buy-homepod/homepod-mini" id="a1">Buy</a></p>
+              <a href="https://www.apple.com/in/homepod-mini/"><img src="./homepod.png" alt="" class="homepods-img"></a>
+      </div>
+    </div>
+
+  
+
+    <div class="card f">
+      <div class="card-body">
+          <a href="https://www.apple.com/in/shop/trade-in" id="trade-1"><p class="trade-2">Trade In</p> <p class="trade-3">Upgrade and save. It's that easy</p>
+              <p id="p3"><a href="https://www.apple.com/in/shop/trade-in" id="a2">See what your device is worth</a></p>
+              <a href="https://www.apple.com/in/shop/trade-in"><img src="./trade.png" alt="" class="trade-img"></a>
+      </div>
+    </div>
+
+
+
+
+
+
+          <div class="caro-1">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active"><a href="https://tv.apple.com/in/show/palm-royale/umc.cmc.6vwg3ce7ovsexa3a6r7f6qk49">
+                    <img src="https://ntvb.tmsimg.com/assets/p26312111_b_h8_ad.jpg?w=1280&h=720" class="d-block w-100 img1" alt="...">
+                  </a> </div>
+                  <div class="carousel-item">
+                    <a href="https://tv.apple.com/in/movie/the-bloody-hundredth/umc.cmc.17tiu47xvxo1p9k0tqfvhf29r"><img src="https://www.apple.com/tv-pr/shows-and-films/t/the-bloody-hundredth/images/thumbnail/key-art-01/Apple_TV_The_Bloody_Hundredth_key_art_main_16_9.jpg.large.jpg" class="d-block w-100 img1" alt="...">
+                    </a></div>
+                  <div class="carousel-item"><a href="https://tv.apple.com/in/show/masters-of-the-air/umc.cmc.7bxcni0vwgll9kmicq738k5q2">
+                    <img src="https://www.apple.com/tv-pr/articles/2023/12/apples-limited-series-masters-of-the-air-reaches-new-heights-with-trailer-debut-ahead-of-its-highly-anticipated-january-26-2024-global-premiere-on-apple-tv/images/big-image/big-image-01/120523_Masters_of_the_Air_Trailer_Post_Big_Image_01_big_image_post.jpg.slideshow_large.jpg" class="d-block w-100 img1" alt="...">
+                  </a></div>
+                  <div class="carousel-item"><a href="https://tv.apple.com/in/show/manhunt/umc.cmc.3uqhvdplroersd5p2l72udkal">
+                    <img src="https://www.apple.com/tv-pr/shows-and-films/m/manhunt/images/season-01/show-home-graphic-header/key-art-01/4x1/Apple_TV_Manhunt_key_art_graphic_header_4_1_show_home.jpg.og.jpg?1707110295739" class="d-block w-100 img1" alt="...">
+                  </a></div>
+                  <div class="carousel-item"><a href="https://tv.apple.com/in/show/constellation/umc.cmc.3lvo8a7ezxpysdy3gou3fsns0">
+                    <img src="https://www.apple.com/tv-pr/shows-and-films/c/constellation/images/season-01/show-home-graphic-header/key-art-01/Apple_TV_Constellation_key_art_graphic_header_4_1_show_home.jpg.og.jpg?1707947616431" class="d-block w-100 img1" alt="...">
+                  </a></div>
+                  <div class="carousel-item"><a href="https://tv.apple.com/in/show/the-reluctant-traveler-with-eugene-levy/umc.cmc.237ur6qdup9h826huv7jg25yu">
+                    <img src="https://www.apple.com/tv-pr/shows-and-films/t/the-reluctant-traveler/images/season-02/show-home-graphic-header/key-art-01/4x1/Apple_TV_The_Reluctant_Traveler_key_art_graphic_header_4_1_show_home.jpg.og.jpg?1708624494898" class="d-block w-100 img1" alt="...">
+                  </a></div>
+                  <div class="carousel-item"><a href="https://tv.apple.com/in/show/monarch-legacy-of-monsters/umc.cmc.62l8x0ixrhyq3yaqa5y8yo7ew">
+                    <img src="https://ntvb.tmsimg.com/assets/p25598861_b_h8_ac.jpg?w=1280&h=720" class="d-block w-100 img1" alt="...">
+                  </a></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
+                  <span class="carousel-control-prev-icon" aria-hidden="true"  style="background-color: black;" ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"  style="background-color: rgb(53, 52, 52); :hover{background-color: black;}"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+
+            <div class="footer"><p class="parag">*Instant savings, otherwise referred to as instant cashback, is available with the purchase of an <a href="https://www.apple.com/in/shop/ways-to-buy" class="link">eligible product</a> for qualifying HDFC Bank Credit Cards and EasyEMI Credit Cards only. 
+              Minimum transaction value of ₹10001.00 applies. <a href="https://www.apple.com/in/shop/ways-to-buy" class="link">Click here</a> to see instant savings amounts and eligible devices. Instant savings is available for up to two orders per rolling 90-day period with an eligible card. Card 
+              eligibility is subject to terms and conditions between you and your card-issuing bank. Total transaction value is calculated after any trade-in credit or eligible discount applied. Any subsequent order adjustment(s) 
+              or cancellation(s) may result in instant savings being recalculated, and any refund may be adjusted to account for instant savings clawback; this may result in no refund being made to you. Offer may be revised or 
+              withdrawn at any time without any prior notice. <a href="https://www.apple.com/in/shop/browse/financing/terms" class="link">Additional terms apply</a>. Offer cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Multiple separate orders cannot be combined 
+              for instant savings.</p>
+              <p class="parag1"> ‡No Cost EMI is available with the purchase of an <a href="https://www.apple.com/in/shop/ways-to-buy" class="link">eligible product</a> made using eligible cards on 3- or 6-month tenures from most leading banks. Monthly pricing is rounded to the nearest rupee. Exact 
+                  pricing will be provided by your bank, subject to your bank’s terms and conditions. Minimum order spend applies as per your card-issuing bank threshold. Offer cannot be combined with Apple Store for Education or 
+                  Corporate Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions between you and your card-issuing bank. Offer may be revised or withdrawn at any time without any prior notice. 
+                  <a href="https://www.apple.com/in/shop/browse/financing/terms" class="link">Additional terms apply</a>.</p>
+              <p class="parag2">Representative example: Based on a 6-month tenure. ₹79900.00 total cost includes 15% p.a. and No Cost EMI savings of ₹3380.00, paid over 6 months as six monthly payments of ₹13317.00.</p> 
+              <p class="parag3">A subscription is required for Apple TV+.</p>
+              <p class="line1">.</p>
+         
+      
+      
+           <table>
+              <tr>
+                  <th>Shop and Learn</th>
+                  <th>Account</th>
+                  <th>Apple Store</th>
+                  <th>For Business</th>
+                  <th>Apple Values</th>
+              </tr>
+      
+              <tr>
+                  <td><a href="https://www.apple.com/in/store" class="footer-link">Store</a></td>
+                  <td><a href="https://appleid.apple.com/" class="footer-link">Manage Your Apple ID</a></td>
+                  <td><a href="https://www.apple.com/in/retail/" class="footer-link">Find a Store</a></td>
+                  <td><a href="https://www.apple.com/in/business/" class="footer-link">Apple and Business</a></td>
+                  <td><a href="https://www.apple.com/in/accessibility/" class="footer-link">Accessibility</a></td>
+              </tr>
+      
+              <tr>
+                  <td><a href="https://www.apple.com/in/mac/" class="footer-link">Mac</a></td>
+                  <td><a href="https://secure6.store.apple.com/in/shop/signIn/account?ssi=1AAABjnTbpoggr-0CbEGQxD7_ti8_tHHj-0AKah0uvJQXem3Gtct5YYoAAAA2aHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9pbi9zaG9wL2FjY291bnQvaG9tZXx8AAIBiyGPU5Iyh58Yll-kXxz5rus4c6Xhf6bxtcmWdVFCdFk" class="footer-link">Apple Store Account</a></td>
+                  <td><a href="https://www.apple.com/in/retail/geniusbar/" class="footer-link">Genius Bar</a></td>
+                  <td><a href="https://www.apple.com/in/retail/business/" class="footer-link">Shop for Business</a></td>
+                  <td><a href="https://www.apple.com/in/education-initiative/" class="footer-link">Education</a></td>
+              </tr>
+      
+              <tr>
+                  <td><a href="https://www.apple.com/in/ipad/" class="footer-link">iPad</a></td>
+                  <td><a href="https://www.icloud.com/" class="footer-link">iCloud.com</a></td>
+                  <td><a href="https://www.apple.com/in/today/" class="footer-link">Today at Apple</a></td>
+                  <td></td>
+                  <td><a href="https://www.apple.com/in/environment/" class="footer-link">Environment</a></td>
+              </tr>
+      
+              <tr>
+                  <td><a href="https://www.apple.com/in/iphone/" class="footer-link">iPhone</a></td>
+                  <td></td>
+                  <td><a href="https://www.apple.com/in/today/camp/" class="footer-link">Apple Camp</a></td>
+                  <th>For Education</th>
+                  <td><a href="https://www.apple.com/in/privacy/" class="footer-link">Privacy</a></td>
+              </tr>
+              <tr>
+                  <td><a href="https://www.apple.com/in/watch/" class="footer-link">Watch</a></td>
+                  <th>Entertainment</th>
+                  <td><a href="https://www.apple.com/in/shop/trade-in" class="footer-link">Apple Trade In</a></td>
+                  <td><a href="https://www.apple.com/in/education/" class="footer-link">Apple and Education</a></td>
+                  <td><a href="https://www.apple.com/in/supplier-responsibility/" class="footer-link">Supplier Responsibility</a></td>
+              </tr>
+              <tr>
+                  <td><a href="https://www.apple.com/in/airpods/" class="footer-link">AirPods</a></td>
+                  <td><a href="https://www.apple.com/in/apple-one/" class="footer-link">Apple One</a></td>
+                  <td><a href="https://www.apple.com/in/shop/ways-to-buy" class="footer-link">Ways to Buy</a></td>
+                  <td><a href="https://www.apple.com/in/education/k12/#how-to-buy" class="footer-link">Shop for Education</a></td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td><a href="https://www.apple.com/in/tv-home/" class="footer-link">TV & Home</a></td>
+                  <td><a href="https://www.apple.com/in/apple-tv-plus/" class="footer-link">Apple TV+</a></td>
+                  <td><a href="https://www.apple.com/in/recycling/nationalservices/" class="footer-link">Recycling Programme</a></td>
+                  <td><a href="https://www.apple.com/in/shop/education-pricing" class="footer-link">Shop for University</a></td>
+                  <th>About Apple</th>
+              </tr>
+              <tr>
+                  <td><a href="https://www.apple.com/in/airtag/" class="footer-link">AirTag</a></td>
+                  <td><a href="https://www.apple.com/in/apple-music/" class="footer-link">Apple Music</a></td>
+                  <td><a href="https://secure6.store.apple.com/in/shop/signIn/orders?ssi=1AAABjnTgEycgP2Ap3PDN1X0EXVf-ADbZBcZ--2iho7CSa_GP_N3NqewAAAA0aHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9pbi9zaG9wL29yZGVyL2xpc3R8fAACASU9uk-8kMRDoAbXYQFn1-yjzw0wTcBGwdQ6026pM2Au" class="footer-link">Order Status</a></td>
+                  <td></td>
+                  <td><a href="https://www.apple.com/in/newsroom/" class="footer-link">Newsroom</a></td>
+              </tr>
+              <tr>
+                  <td><a href="https://www.apple.com/in/shop/accessories/all" class="footer-link">Accessories</a></td>
+                  <td><a href="https://www.apple.com/in/apple-arcade/" class="footer-link">Apple Arcade</a></td>
+                  <td><a href="https://www.apple.com/in/shop/help" class="footer-link">Shopping Help</a></td>
+                  <th>For Healthcare</th>
+                  <td><a href="https://www.apple.com/in/leadership/" class="footer-link">Apple Leadership</a></td>
+              </tr>
+              <tr>
+                  <td><a href="https://www.apple.com/in/shop/gift-cards" class="footer-link">Gift Cards</a></td>
+                  <td><a href="https://www.apple.com/in/apple-podcasts/" class="footer-link">Apple Podcasts</a></td>
+                  <td></td>
+                  <td><a href="https://www.apple.com/in/healthcare/" class="footer-link">Apple in Healthcare</a></td>
+                  <td><a href="https://www.apple.com/careers/in/" class="footer-link">Career Opportunities</a></td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td><a href="https://www.apple.com/in/apple-books/" class="footer-link">Apple Books</a></td>
+                  <td></td>
+                  <td><a href="https://www.apple.com/in/healthcare/apple-watch/" class="footer-link">Health on Apple Watch</a></td>
+                  <td><a href="https://investor.apple.com/investor-relations/default.aspx" class="footer-link">Investors</a></td>
+              </tr>
+              <tr>
+                  <th>Apple Wallet</th>
+                  <td><a href="https://www.apple.com/in/app-store/" class="footer-link">App Store</a></td>
+                  <td></td>
+                  <td></td>
+                  <td><a href="https://www.apple.com/compliance/" class="footer-link">Ethics & Compliance</a></td>
+              </tr>
+              <tr>
+                  <td><a href="https://www.apple.com/in/wallet/" class="footer-link">Wallet</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><a href="https://www.apple.com/in/apple-events/" class="footer-link">Events</a></td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><a href="https://www.apple.com/in/contact/" class="footer-link">Contact Apple</a></td>
+              </tr>
+          </table>
+          <li class="list"> More ways to shop: <a href="https://www.apple.com/in/retail/">Find an Apple Store</a> or <a href="https://locate.apple.com/in/en/">other retailer</a> near you. Or call 000800 040 1966.
+          </li>
+      
+          <p class="line2">.</p>
+      
+      
+          <table class="table2">
+              <tr>
+                  <th style="font-weight: lighter; color: dimgray;">Copyright © 2024 Apple Inc. All rights reserved.</th>
+                  <td class="td"><a href="https://www.apple.com/in/legal/privacy/" class="footer-link td">Privacy Policy</a></td>
+                  <td class="td"><a href="https://www.apple.com/in/legal/internet-services/terms/site.html" class="footer-link td">Terms of Use</a></td>
+                  <td class="td"><a href="https://www.apple.com/in/legal/sales-support/sales-policies/retail_in.html" class="footer-link td">Sales Policy</a></td>
+                  <td class="td"><a href="https://www.apple.com/in/legal/" class="footer-link td">Legal</a></td>
+                  <td><a href="https://www.apple.com/in/sitemap/" class="footer-link td">Site Map</a></td>
+                  <td></td>
+                  <td></td>
+                  <td><a href="https://www.apple.com/choose-country-region/" class="footer-link">India</a></td>
+              </tr>
+          </table>
+      
+      
+          </div>
+
+       
+        
+    
+
+
+
+
+
+
+        
+    <script>
+        function toggleSearch() {
+          var container = document.getElementById('searchContainer');
+          var input = document.getElementById('searchInput');
+          var button = document.querySelector('.search-container button');
+          if (input.style.display === 'block') {
+            input.style.display = 'none';
+            button.style.display = 'none';
+            container.classList.remove('active');
+          } else {
+            input.style.display = 'block';
+            button.style.display = 'block';
+            container.classList.add('active');
+          }
+        }
+      
+        function performSearch() {
+          var searchTerm = document.getElementById('searchInput').value;
+          // Replace 'search-route' with the path you want to send the search query to
+          window.location.href = '/search-route?q=' + encodeURIComponent(searchTerm);
+        }
+
+        function toggleBagContent() {
+    var content = document.getElementById('Content');
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  }
+      </script>
+</body>
+</html>
